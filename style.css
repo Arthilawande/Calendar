@@ -1,0 +1,225 @@
+
+body{
+  background-image: url("bg2.png");
+  background-size: cover;
+  
+}
+
+.calendar-wrapper {
+    max-width: 280px;
+    font: 100% system-ui;
+   display: flex;
+   display:inline-block;
+   margin: 30px;
+   padding-right: 5px;
+   position: relative;
+   left: 20px;
+  
+   
+   
+  }
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+    
+  }
+
+  .year{
+    
+  font-size: 40px;
+  text-align: center;
+  color: palevioletred;
+   position: relative;
+   top: 30px;
+   
+   }
+  
+  .first-day {
+    grid-column-start: 2;
+
+    
+  }
+  
+  
+  .day-name {
+    background-color: palevioletred;
+    color: black;
+    font-size: 20px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(216, 112, 166);
+    text-transform: uppercase;
+    font-size: 20px;
+    
+    
+  }
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  li {
+    padding: 2px;
+  }
+
+  .calendar-wrap{
+    display:inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+   
+  }
+
+  .Second-day {
+    grid-column-start: 5;
+    
+  }
+
+
+  .calendar-m{
+    display:inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+  }
+
+  .Third-day {
+    grid-column-start: 6;
+    
+  }
+
+  .calendar-a{
+
+    display: inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+  }
+
+  .four-day {
+    grid-column-start: 2;
+    
+  }
+
+  .calendar-ma{
+    display: inline-block;
+  max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+  }
+
+ .five-day {
+    grid-column-start: 4;
+    
+  }
+
+  .calendar-j{
+    display: inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .six-day {
+    grid-column-start: 7;
+    }
+
+  .calendar-ju{
+    display: inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .seven-day {
+    grid-column-start: 2;
+    
+  }
+
+  .calendar-au{
+    display: inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .eight-day {
+    grid-column-start: 5;
+    
+  }
+
+  .calendar-s{
+    display: inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+    position: relative;
+    left: 20px;
+    position: relative;
+    bottom: 85px;
+  }
+
+  .nine-day {
+    grid-column-start: 1;
+    
+  }
+
+  .calendar-o{
+    display: inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+    position: relative;
+    bottom: 85px;
+  }
+
+  .ten-day {
+    grid-column-start: 3;
+    
+  }
+
+  .calendar-n{
+    display: inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+    position: relative;
+    bottom: 85px;
+  }
+
+  .eleven-day {
+    grid-column-start: 6;
+    
+  }
+
+  .calendar-d{
+    display: inline-block;
+    max-width: 280px;
+    font: 100% system-ui;
+    margin: 30px;
+    position: relative;
+    bottom: 85px;
+  }
+
+  .twelve-day {
+    grid-column-start: 1;
+    
+  }
+
+
+
+  
